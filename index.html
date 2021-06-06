@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<style>
+		
+		.content{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			margin-bottom: 30px;
+		}
+
+		.box-article:hover .box-hover span{
+			transform: translateY(-5px);
+			transition-delay: .1s;
+			/*transition: .5s;*/
+		}
+
+		.box-hover span{
+			transform: translateY(5px);
+			transition: .5s;
+		}
+
+
+
+
+		.box-article:hover .box-hover h3{
+			transform: translateY(-5px);
+			transition-delay: .1s;
+			/*transition: .5s;*/
+		}
+
+		.box-hover h3{
+			transform: translateY(2px);
+			transition: .3s;
+		}
+
+		body{
+			font-family: 'Antonio', sans-serif;
+			line-height: 1.5;
+			
+			
+			font-weight: 500;
+
+		}
+		
+		
+		
+		}
+
+		.p{
+			text-align: center;
+			color: gray
+			letter-spacing: 3;
+			font-size: 2;
+
+			
+			
+
+			margin:0%;
+		}
+		
+		
+		
+		}
+		.social_div:hover{
+			background-color: black;
+			color: white;
+			
+		}
+		.h1{
+			text-align: center;
+			font-size: 500%;
+			font-style: normal;
+			letter-spacing: 100%;
+			font-family: 'Antonio', sans-serif;
+
+
+		}
+		.tit{
+			margin: 30px;
+		}
+		.footer{
+			text-align: center;
+			
+
+			text-transform: uppercase;
+			color: initial;
+			letter-spacing: 3px;
+		}
+		.footer:hover{
+			text-decoration: underline;
+
+		}
+		
+		.box-article{
+			
+			width: 400px;
+			height: auto;
+			/*background: linear-gradient(217deg, #e66465, #9198e5);*/
+			background-color: white;
+			position: relative;
+
+			
+			
+		}
+
+
+		.box-article .box-hover{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: rgb(238 238 238 / 70%);
+			opacity: 0;
+			transition: .3s;
+			
+		}
+		.box-article .box-hover:hover{
+			opacity: 1;
+			cursor: pointer;
+		}
+		/*.box-article .box-hover h3{
+			margin: 5px;
+			transform: translateY(10px); 
+		}
+		.box-article .box-hover span{
+			transform: translateY(10px);
+			 
+		}*/
+		.box-article:hover {
+			background-color: red;
+
+		}
+
+		/*.box-article:hover img{
+			opacity: .5;
+
+		}*/
+		.box-article img{
+			display: block;
+			width: 100%;
+			height: auto;
+
+			
+		}
+		hr{
+			margin-bottom: 35px;
+		}
+		
+		.nav12{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+
+
+		}
+		.nav12 .nav12-a{
+			text-decoration: none;
+			color: black;
+			margin-bottom: 1%;
+			margin-right: 2%;
+			margin-left: 2%;
+
+		}
+		.nav12 .nav12-a:hover{
+			text-decoration: underline;
+		}	
+		
+		@media (min-width: 0px) and (max-width: 899px){
+			.box-article{
+				width: 205px;
+			}
+
+		}
+		@media (min-width: 900px) and (max-width: 1360px){
+			.box-article{
+				width: 270px;
+			}
+
+		}
+		@media (min-width: 1500px) and (max-width: 1655px){
+			.box-article{
+				width: 455px;
+			}
+
+		}
+		@media (min-width: 1656px) and (max-width: 3820px){
+			.box-article{
+				width: 550px;
+			}
+
+		}
+	</style>
+		
+		
+		
+		
+</head>
+<body>
+	<div class="page-index">
+		<div class="h1"><p class="tit"><i>Photo</i></p></div>
+		<div class="nav12">
+			<a class="nav12-a" href="about.html">About</a>
+			<a class="nav12-a" href="">Home</a>
+			<a class="nav12-a" href="index8.html">Photos</a>
+			<a class="nav12-a" href="">Contact</a>
+			<a class="nav12-a" href="">Help</a>
+		</div>
+		<hr>
+			<div class="page content">
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Noah</h3>
+						<span>People</span>
+					</div>
+					<img src="https://picsum.photos/id/1005/800/800" alt="">
+					<!-- <img src="2photo.jpg" alt=""> -->
+				</div>
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Noah</h3>
+						<span>me</span>
+					</div>
+					<!-- <img src="https://picsum.photos/id/1011/800/800" alt=""> -->
+					<img src="IMG_230962.PNG" alt="">
+				</div>
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Friends</h3>
+						<span>People</span>
+					</div>
+					<!-- <img src="https://picsum.photos/id/1056/800/800" alt=""> -->
+					<img src="https://picsum.photos/id/1012/800/800" alt="">
+					
+				</div>
+			</div>
+
+			<div class="page content">
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Sunset</h3>
+						<span>me</span>
+					</div>
+					<!-- <img src="https://picsum.photos/id/902/800/800" alt=""> -->
+					<img src="2photo.jpg" alt="">
+				</div>
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Noah</h3>
+						<span>People</span>
+					</div>
+					<img src="https://picsum.photos/id/795/800/800" alt="">
+					<!-- <img src="IMG_23096.JPG" alt=""> -->
+				</div>
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Lviv, Ukraine</h3>
+						<span>me</span>
+					</div>
+					
+					<!-- <img src="IMG_23096.JPG" alt=""> -->
+					<img src="o.PNG" alt="">
+				</div>
+			</div>
+
+			<div class="page content">
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Noah</h3>
+						<span>People</span>
+					</div>
+					<img src="https://picsum.photos/id/903/800/800" alt="">
+					<!-- <img src="IMG_23096.JPG" alt=""> -->
+				</div>
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Noah</h3>
+						<span>People</span>
+					</div>
+					<img src="https://picsum.photos/id/654/800/800" alt="">
+					<!-- <img src="IMG_23096.JPG" alt=""> -->
+				</div>
+				<div class="box-article">
+					<div class="box-hover">
+						<h3>Noah</h3>
+						<span>People</span>
+					</div>
+					<img src="https://picsum.photos/id/356/800/800" alt="">
+					<!-- <img src="IMG_23096.JPG" alt=""> -->
+				</div>
+			</div>
+		
+		<footer class="footer">
+			<p>COPYRIGHT 2021. SOMEBODY</p>
+		</footer>
+	</div>
+</body>
+</html>

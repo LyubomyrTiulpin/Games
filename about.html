@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<style>
+		body{
+			font-family: 'Antonio', sans-serif;
+			line-height: 1.5;
+			
+			
+			font-weight: 500;
+
+		}
+		.container{
+
+			
+			width: 75%;
+			/*min-width: 310px;*/
+			margin: 30px auto auto auto;
+			position: relative;
+		}
+		.c_item{
+			
+			width: 100%;
+			height: auto;
+			margin: auto;
+			display: block;
+			
+		}
+		
+		}
+
+		.p{
+			text-align: center;
+			color: gray
+			letter-spacing: 3;
+			font-size: 2;
+
+			
+			
+
+			margin:0%;
+		}
+		.social{
+			padding: 40px 0;
+			text-align: center;
+			color: black;\
+			width: 25px;
+			height: auto;
+			
+
+
+		}
+		.social_item{
+			color: black;
+			margin: 0 8px;
+			
+			display: inline-block;
+			
+
+		}
+		.social_div{
+			background-color: lightgrey;
+			height: 50px;
+			width: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 30%;
+			transition: color .2s, background-color .2s;
+		}
+		.social_div:hover{
+			background-color: black;
+			color: white;
+			
+		}
+		.h1{
+			text-align: center;
+			font-size: 500%;
+			font-style: normal;
+			letter-spacing: 100%;
+			font-family: 'Antonio', sans-serif;
+
+		}
+		.tit{
+			margin: 30px;
+		}
+		.footer{
+			text-align: center;
+			padding: 0px;
+			padding-bottom: : 40px;
+			margin-top: : 0px;
+			margin-right: : : 0px;
+			margin-left: : : 0px;
+			margin-bottom: 0px;
+
+			text-transform: uppercase;
+			color: initial;
+			letter-spacing: 3px;
+		}
+		.footer:hover{
+			text-decoration: underline;
+
+		}
+		.maintext{
+			font-family: 'Quicksand', sans-serif;
+			display: ;
+			padding: 0 5% 0 5%;
+		}
+		.maintextblock{
+			text-align: center;
+			
+		}
+		.ttl{
+			text-align: center;
+			font-size: 300%;
+		}
+		.nav12{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+
+
+		}
+		.nav12 .nav12-a{
+			text-decoration: none;
+			color: black;
+			margin-bottom: 1%;
+			margin-right: 2%;
+			margin-left: 2%;
+
+		}
+		.nav12 .nav12-a:hover{
+			text-decoration: underline;
+		}
+		.container .img-hover{
+			position: absolute;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: rgb(238 238 238 / 70%);
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			opacity: 0;
+			transition: .27s;
+		}
+		.container .img-hover:hover{
+			opacity: 1;
+
+		}
+		.container .img-hover .img-hover-a{
+			text-decoration: none;
+			color: black;
+		}
+		.container .img-hover .img-hover-a:hover{
+			text-decoration: underline;
+		}
+		.container:hover .img-hover .img-hover-a{
+			transform: translateY(-5px);
+			transition-delay: .1s;
+			/*transition: .5s;*/
+		}
+
+		.img-hover .img-hover-a{
+			transform: translateY(5px);
+			transition: .5s;
+		}
+
+
+
+
+		.container:hover .img-hover h3{
+			transform: translateY(-5px);
+			transition-delay: .1s;
+			/*transition: .5s;*/
+		}
+
+		.img-hover h3{
+			transform: translateY(2px);
+			transition: .3s;
+		}
+	</style>
+</head>
+<body>
+	<div class="h1"><p class="tit"><i>Photo</i></p></div>
+	<div class="nav12">
+		<a class="nav12-a" href="about.html">About</a>
+		<a class="nav12-a" href="">Home</a>
+		<a class="nav12-a" href="index.html">Photos</a>
+		<a class="nav12-a" href="">Contact</a>
+		<a class="nav12-a" href="">Help</a>
+	</div>
+	<hr>
+	<div class="container">
+		<div class="img-hover">
+			<h3>Welcome!</h3>
+			<a class="img-hover-a" href="index.html"><span>Click here for photos</span></a>
+		</div>
+		<img class="c_item" src="IMG_23096.png" alt="">
+	</div>
+	<div class="p">
+		<div class="maintext">
+			<p class="ttl">
+			<span class="ttl_text">About</span>
+			<span class="ttl_item"></span>
+			</p>
+			<p class="maintextblock">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto, nulla, sed beatae voluptas voluptatum. Tempora esse magnam, in fugit alias, aspernatur vero corporis delectus, consequatur sequi, rem sapiente commodi. Quidem autem illum, ipsam minus ratione labore, tempora itaque a commodi reiciendis expedita quia consequatur facilis fugit nostrum architecto dolor similique, placeat voluptate dolore. Dicta neque dolore possimus, quia modi.</p>
+		</div>
+	</div>
+	<div class="social">
+		<a href="" class="social_item"><div class="social_div"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></div></a>
+		<a href="" class="social_item"><div class="social_div"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></div></a>
+		
+		<a href="" class="social_item"><div class="social_div"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></div></a>	
+	</div>
+	<div class="abc"></div>
+	<div id="abc"></div>
+	<footer class="footer">
+		<p>COPYRIGHT 2021. SOMEBODY</p>
+	</footer>
+</body>
+</html>
